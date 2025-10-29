@@ -364,6 +364,23 @@
       </repositories>
     </profile>
 
+    <!-- RuyiSDK plugins repository profile, activated when ruyisdk.plugins.repository is set -->
+    <profile>
+      <id>ruyisdk-plugins-repo</id>
+      <activation>
+        <property>
+          <name>ruyisdk.plugins.repository</name>
+        </property>
+      </activation>
+      <repositories>
+        <repository>
+          <id>ruyisdk-plugins</id>
+          <url>${ruyisdk.plugins.repository}</url>
+          <layout>p2</layout>
+        </repository>
+      </repositories>
+    </profile>
+
     <profile>
       <id>epp.p2.use-prebuilt-repo</id>
       <activation>

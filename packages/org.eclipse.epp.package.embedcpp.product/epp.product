@@ -240,6 +240,7 @@ United States, other countries, or both.
       <feature id="org.eclipse.mylyn.jenkins.feature" installMode="root"/>
       <feature id="org.eclipse.mylyn.reviews.feature" installMode="root"/>
       <feature id="org.eclipse.epp.package.embedcpp.feature" version="4.34.0.qualifier"/>
+      <feature id="org.ruyisdk.feature" installMode="root"/>
       <feature id="org.eclipse.cdt" installMode="root"/>
       <feature id="org.eclipse.cdt.autotools" installMode="root"/>
       <feature id="org.eclipse.cdt.build.crossgcc" installMode="root"/>

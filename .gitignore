@@ -18,3 +18,7 @@ email.txt
 workspace/
 build.log
 .tycho-consumer-pom.xml
+
+# Eclipse/Maven IDE files
+.settings/
+.project
